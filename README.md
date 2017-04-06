@@ -1,7 +1,8 @@
 # ViSTA
 A coupled vegetation/sediment-transport model for dryland environments
 
-MODEL OVERVIEW
+** MODEL OVERVIEW **
+
 The coupled cellular automaton Vegetation and Sediment TrAnsport model (ViSTA) is designed to address fundamental questions about the development of arid and semi-arid landscapes in a spatially explicit way. 
 
 The ViSTA model consists of two coupled models that interact with each other over various timescales: (i) a vegetation model that simulates vegetation growth and decline in response to environmental stresses resulting from climate and land use changes, and (ii) a sediment transport model (composed of two modules) that moves sediment across the model domain in response to spatially varying wind speeds. 
@@ -15,3 +16,9 @@ The model is implemented in the Python® programming language.
 Fore more information regarding the theory and application of the code, see the following open-access publication: Mayaud, J. R., Bailey, R. M. & Wiggs, G. F. S. (2017). A coupled vegetation/sediment-transport model for dryland environments. Journal of Geophysical Research: Earth Surface. doi:10.1002/2016JF004096
 
 (http://onlinelibrary.wiley.com/doi/10.1002/2016JF004096/abstract)
+
+** RUNNING THE MODEL **
+
+The main file from which the model is run is 'landscape_MAIN.py'. This coordinates the various modules, and allows the user to save the output files they choose.
+
+The model parameters can all be changed in 'landscape_SETUP.py'.
